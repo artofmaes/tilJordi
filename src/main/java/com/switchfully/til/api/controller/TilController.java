@@ -1,5 +1,7 @@
-package com.switchfully.til;
+package com.switchfully.til.api.controller;
 
+import com.switchfully.til.domain.Til;
+import com.switchfully.til.services.TilService;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;

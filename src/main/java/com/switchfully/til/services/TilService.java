@@ -1,5 +1,7 @@
-package com.switchfully.til;
+package com.switchfully.til.services;
 
+import com.switchfully.til.domain.Til;
+import com.switchfully.til.repositories.TilRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
